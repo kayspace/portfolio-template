@@ -53,9 +53,26 @@ body {
   color: var(--portfolio-accent);
   font-weight: 600;
 }
- 
+
+.accent-text-purple {
+  color: var(--link-color);
+  font-weight: 600;
+}
+
 a {
   color: var(--link-color);
+}
+ 
+.wavy-underline-purple {
+  text-decoration-color: var(--link-color);
+  text-decoration-line: underline;
+  text-decoration-style: wavy;
+}
+
+.wavy-underline-accent {
+  text-decoration-color: var(--portfolio-accent);
+  text-decoration-line: underline;
+  text-decoration-style: wavy;
 }
 
 /* Navigation */
@@ -336,12 +353,16 @@ a {
 
 .social-link {
   color: var(--text-primary);
-  text-decoration: none;
+  /* text-decoration: none; */
   transition: var(--transition);
+  text-decoration-line: underline;
+  text-decoration-style: wavy;
+  text-decoration-thickness: 2px;
+  text-decoration-color: var(--portfolio-accent);
 }
 
 .social-link:hover {
-  color: var(--portfolio-accent);
+  color: var(--link-color);
 }
 
 /* Footer */
