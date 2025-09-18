@@ -120,8 +120,8 @@ This project is open source and available under the [MIT License](LICENSE).
 
 ## Support
 
-- Open an [issue](https://github.com/yourusername/portfolio-template/issues) for bugs
-- Start a [discussion](https://github.com/yourusername/portfolio-template/discussions) for questions
+- Open an [issue](https://github.com/kayspace/portfolio-template/issues) for bugs
+- Start a [discussion](https://github.com/kayspace/portfolio-template/discussions) for questions
 
 ## Author
 
