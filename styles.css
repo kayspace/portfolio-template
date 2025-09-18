@@ -9,6 +9,7 @@
   --text-muted: hsl(0, 0%, 40%);
   --portfolio-accent: hsl(120, 100%, 50%);
   --portfolio-accent-hover: hsl(120, 100%, 45%);
+  --link-color : purple;
   
   /* Typography */
   --font-mono: "Geist Mono", monospace;;
@@ -54,7 +55,7 @@ body {
 }
  
 a {
-  color: purple;
+  color: var(--link-color);
 }
 
 /* Navigation */
