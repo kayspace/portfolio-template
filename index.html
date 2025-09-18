@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>[Your Name] - Developer Portfolio</title>
+    <meta name="description" content="[Your description] - Full Stack Developer Portfolio">
+    
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Geist+Mono:wght@100..900&display=swap" rel="stylesheet">
+    
+    <!-- GSAP -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+    
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="nav">
+        <div class="nav-container">
+            <div class="nav-content">
+                <div class="nav-logo">portfolio.exe</div>
+                <div class="nav-links">
+                    <button onclick="scrollToSection('home')" class="nav-link">home()</button>
+                    <button onclick="scrollToSection('work')" class="nav-link">work()</button>
+                    <button onclick="scrollToSection('skills')" class="nav-link">skills()</button>
+                    <button onclick="scrollToSection('about')" class="nav-link">about()</button>
+                    <button onclick="scrollToSection('contact')" class="nav-link">contact()</button>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Home Section -->
+    <section id="home" class="section-home">
+        <div class="container text-center">
+            <div class="home-greeting">
+                HI, I'M <span class="accent-text">[YOUR NAME]</span>
+            </div>
+            
+            <h1 class="hero-title">
+                [YOUR ROLE]
+                DEVELOPER
+            </h1>
+
+            <p class="hero-description">
+                [Your Description - Keep it simple and geniune like :-)]
+                [Hi, I’m ________. I work on ________ and enjoy building projects that are practical and useful. I’m interested in ________ and like learning new things to improve my work. In my free time, I also enjoy ________.]
+
+            </p>
+
+            <div class="hero-buttons">
+                <button onclick="scrollToSection('about')" class="btn-outline">
+                    Know More
+                </button>
+                <button onclick="scrollToSection('contact')" class="btn-primary">
+                    Get in touch
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Work Section -->
+    <section id="work" class="section portfolio-section">
+        <div class="container">
+            <h2 class="section-title">PRACTICE WORK</h2>
+            
+            <div class="work-list">
+                <div class="work-item">
+                    <a href="#" class="work-link">
+                        <div class="work-content active">
+                            <h3 class="work-title">
+                                **[Project Name 1]** Live
+                            </h3>
+                            <div class="work-details">
+                                <div>[Tech Stack] HTML / CSS / JS</div>
+                                <div>2024</div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="work-item">
+                    <a href="#" class="work-link">
+                        <div class="work-content">
+                            <h3 class="work-title">
+                                **[Project Name 2]** Live
+                            </h3>
+                            <div class="work-details">
+                                <div>[Tech Stack]</div>
+                                <div>2024</div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="work-item">
+                    <a href="#" class="work-link">
+                        <div class="work-content">
+                            <h3 class="work-title">
+                                **[Project Name 3]** Archived
+                            </h3>
+                            <div class="work-details">
+                                <div>[Tech Stack]</div>
+                                <div>2023</div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="work-item">
+                    <a href="#" class="work-link">
+                        <div class="work-content">
+                            <h3 class="work-title">
+                                **[Project Name 4]** Wip
+                            </h3>
+                            <div class="work-details">
+                                <div>[Tech Stack]</div>
+                                <div>2024</div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="section section-alt portfolio-section">
+        <div class="container">
+            <h2 class="section-title">SKILLS & TECHNOLOGIES</h2>
+            
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <h3 class="skill-title">FRONTEND</h3>
+                    <div class="skill-list">
+                        <div>JAVASCRIPT</div>
+                        <div>TYPESCRIPT</div>
+                        <div>REACT.JS</div>
+                        <div>NEXT.JS</div>
+                        <div>TAILWIND CSS</div>
+                    </div>
+                </div>
+
+                <div class="skill-category">
+                    <h3 class="skill-title">BACKEND</h3>
+                    <div class="skill-list">
+                        <div>NODE.JS</div>
+                        <div>EXPRESS</div>
+                        <div>PYTHON</div>
+                        <div>POSTGRESQL</div>
+                        <div>SUPABASE</div>
+                    </div>
+                </div>
+
+                <div class="skill-category">
+                    <h3 class="skill-title">TOOLS</h3>
+                    <div class="skill-list">
+                        <div>GIT</div>
+                        <div>VS CODE</div>
+                        <div>FIGMA</div>
+                        <div>POSTMAN</div>
+                        <div>AI TOOLS</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section portfolio-section">
+        <div class="container">
+            <h2 class="section-title">ABOUT</h2>
+            
+            <div class="about-content">
+                <p>
+                    [WRITE SOMETHING GENUINE ABOUT YOURSELF HERE. AVOID BORING CLICHÉS. 
+                    MAYBE SHARE YOUR JOURNEY, WHAT DRIVES YOU, OR A FUN FACT ABOUT HOW YOU GOT INTO DEVELOPMENT]
+                </p>
+                
+                <p>
+                    [DESCRIBE YOUR APPROACH TO DEVELOPMENT. WHAT'S YOUR PHILOSOPHY? 
+                    DO YOU HAVE ANY QUIRKY HABITS OR INTERESTING PERSPECTIVES? MAKE IT PERSONAL AND ENGAGING]
+                </p>
+                
+                <p>
+                    When I'm not coding, you'll find me:
+                </p>
+                
+                <ul class="about-list">
+                    <li>→ [YOUR HOBBY OR INTEREST]</li>
+                    <li>→ [ANOTHER ACTIVITY YOU ENJOY]</li>
+                    <li>→ [SOMETHING THAT SHOWS YOUR PERSONALITY]</li>
+                    <li>→ [ONE MORE THING THAT MAKES YOU UNIQUE]</li>
+                </ul>
+                
+                <p>
+                    [ADD A CALL TO ACTION OR INVITATION TO CONNECT. MAYBE MENTION WHAT KIND OF 
+                    CONVERSATIONS YOU ENJOY OR PROJECTS YOU'RE INTERESTED IN]
+                </p>
+                
+                <p class="about-note">
+                    [OPTIONAL: ADD A PERSONAL TOUCH, JOKE, OR EASTER EGG HERE :-)]
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section section-alt portfolio-section">
+        <div class="container text-center">
+            <h2 class="section-title">LET'S BUILD SOMETHING COOL</h2>
+            
+            <p class="contact-description">
+                Got a project in mind? Want to collaborate? Or just want to say hi? 
+                Drop me a line and let's turn ideas into reality (▰˘◡˘▰)
+            </p>
+            
+            <div class="contact-info">
+                <div>
+                    <a href="mailto:[your.email@domain.com]" class="contact-email">
+                        [your.email@domain.com]
+                    </a>
+                </div>
+                
+                <div class="social-links">
+                    <a href="#" class="social-link">GITHUB</a>
+                    <a href="#" class="social-link">LINKEDIN</a>
+                    <a href="#" class="social-link">TWITTER</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container text-center">
+            <p>
+                © 2024 [YOUR_NAME] — ALL RIGHTS RESERVED
+            </p>
+            <p class="footer-note">
+                THIS TEMPLATE IS <span>OPENSOURCE</span>. If u like it u can <span><a href="">spare a star ✪</a></span>  hehe :)
+            </p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
