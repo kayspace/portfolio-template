@@ -404,10 +404,18 @@ a {
   .nav-link {
     font-size: 0.8rem;
   }
+
+  .home-greeting {
+    margin-top: 3rem;
+  }
   
   .hero-buttons {
     flex-direction: column;
     align-items: center;
+  }
+
+  .hero-description {
+    font-size: 0.8rem;
   }
   
   .btn-outline,
