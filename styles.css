@@ -390,9 +390,19 @@ a {
 
 /* Mobile Responsive */
 @media (max-width: 767px) {
+
+  .nav-content {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+
   .nav-links {
     gap: 1rem;
-    font-size: 0.75rem;
+  }
+
+  .nav-link {
+    font-size: 0.8rem;
   }
   
   .hero-buttons {
