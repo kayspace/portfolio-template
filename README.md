@@ -125,7 +125,7 @@ This project is open source and available under the [MIT License](LICENSE).
 
 ## Author
 
-**kayspace** - [GitHub Profile](https://github.com/kayspace)  
+**kayspace** - [GitHub Profile](https://github.com/kayspace)  | [Contact](kayzspace@outlook.com)
 
 >*You’re free to fork, tweak, or use it as your base.
 If you really like the theme and if it was really useful to you, you can [spare me a star ✪](https://github.com/kayspace/portfolio-template) hehe!*
